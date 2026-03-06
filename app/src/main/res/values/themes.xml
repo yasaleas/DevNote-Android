@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.DevNote" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorOnPrimary">@color/background_dark</item>
+        <item name="colorSecondary">@color/card_dark</item>
+        <item name="colorOnSecondary">@color/text_primary</item>
+        <item name="android:statusBarColor">@color/background_dark</item>
+        <item name="android:navigationBarColor">@color/background_dark</item>
+        <item name="android:windowBackground">@color/background_dark</item>
+        <item name="colorSurface">@color/card_dark</item>
+        <item name="colorOnSurface">@color/text_primary</item>
+        
+        <!-- Bottom Nav indicator color -->
+        <item name="colorSecondaryContainer">#2C2C2E</item>
+        <item name="colorOnSecondaryContainer">@color/white</item>
+    </style>
+
+    <style name="ShapeAppearance.DevNote.FAB" parent="ShapeAppearance.Material3.Corner.Medium">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">16dp</item>
+    </style>
+
+    <style name="TextAppearance.DevNote.BottomNav" parent="TextAppearance.Material3.LabelSmall">
+        <item name="android:textSize">11sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    
+    <style name="TextAppearance.DevNote.BottomNav.Active" parent="TextAppearance.DevNote.BottomNav">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Theme.DevNote.BottomSheet" parent="Theme.Material3.Dark.BottomSheetDialog">
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@color/background_dark</item>
+    </style>
+
+    <style name="Theme.Transparent" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+</resources>
